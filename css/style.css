@@ -131,10 +131,24 @@ nav li:first-child {
 main {
   height: 200vh;
   padding: 20px 30px 0;
+  line-height: 24px;
 }
 
-.realSticky {
-  height: 100vh;
+main h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+main img {
+  width: 100%;
 }
 
 .featured {
@@ -143,24 +157,77 @@ main {
           flex: 0 1 28%;
 }
 
-.featured h2 {
-  color: rgba(3, 3, 3, 0.4);
-  font-size: 16px;
-  font-weight: bold;
+.featured figure {
+  margin-bottom: 10px;
+}
+
+.featured h3 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .featured img {
   width: 100%;
 }
 
-.topStory {
+.longBoi {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 42%;
-          flex: 0 1 42%;
+      -ms-flex: 0 1 43%;
+          flex: 0 1 43%;
+}
+
+.longBoi h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cultureTravel {
+  background: #f4f5f7;
+}
+
+.cultureTravel a {
+  font: 20px/22px "Lora",serif;
+}
+
+.cultureTravel a:hover {
+  text-decoration: none;
+}
+
+.cultureTravel p {
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #8e8f90;
+}
+
+.cultureTravel .tag {
+  background: #c2d4d7;
+  padding: 6px;
+  font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
+.moreStories article {
+  border-top: 1px solid #ddd;
+}
+
+.moreStories h3 {
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .opinion {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 30%;
-          flex: 0 1 30%;
+      -ms-flex: 0 1 29%;
+          flex: 0 1 29%;
+  font: 17px/21px "Roboto Condensed",sans-serif;
+}
+
+.opinion article {
+  border-bottom: 1px solid #ddd;
+}
+
+.opinion a {
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
+}
+
+.opinion a:hover {
+  text-decoration: none;
 }
