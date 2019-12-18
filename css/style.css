@@ -391,13 +391,29 @@ footer .footerMenu a {
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
 }
 
-.featuredSlide h3 {
+.us h3,
+.world h3,
+.bussiness h3,
+.tech h3,
+.sports h3,
+.culture h3,
+.subscribe h3 {
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
 }
 
-.featuredSlide .icon-n::after {
+.cluster h3 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.featuredSlide figcaption h3 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.featuredSlide figcaption .icon-n::after {
   border-bottom: 3px solid red;
   border-right: 3px solid red;
   display: block;
@@ -418,22 +434,6 @@ footer .footerMenu a {
 .subscribe h2 {
   font: bold 22px/22px "Roboto Condensed", sans-serif;
   border-top: 1px solid #d9d9d9;
-}
-
-.us h3,
-.world h3,
-.bussiness h3,
-.tech h3,
-.sports h3,
-.culture h3,
-.subscribe h3 {
-  font-size: 22px;
-  line-height: 22px;
-  font-weight: 700;
-}
-
-.cluster h3 {
-  font: bold 17px/21px "Roboto Condensed", sans-serif;
 }
 
 .callToAction {
