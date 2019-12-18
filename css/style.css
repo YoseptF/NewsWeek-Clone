@@ -6,6 +6,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -54,8 +55,7 @@ header a {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
 }
 
-.callToAction a,
-.ad a {
+.callToAction a, .ad a {
   padding: 10px 10px 10px 12px;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-decoration: none;
@@ -95,7 +95,6 @@ header svg {
     -ms-flex-align: center;
     align-items: center;
   }
-
   header svg {
     height: 14px;
   }
@@ -297,8 +296,7 @@ footer .footerMenu a {
   text-decoration: none;
 }
 
-.moreArticles article .backImages,
-.afterMagazine article .backImages {
+.moreArticles article .backImages, .afterMagazine article .backImages {
   width: 100%;
   padding-bottom: 100%;
   background-size: cover;
@@ -387,7 +385,7 @@ footer .footerMenu a {
   text-align: center;
   width: 70px;
   height: 52px;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
 }
 
 .featuredSlide h3 {
@@ -408,24 +406,12 @@ footer .footerMenu a {
   right: -4px;
 }
 
-.us h2,
-.world h2,
-.bussiness h2,
-.tech h2,
-.sports h2,
-.culture h2,
-.subscribe h2 {
+.us h2, .world h2, .bussiness h2, .tech h2, .sports h2, .culture h2, .subscribe h2 {
   font: bold 22px/22px "Roboto Condensed", sans-serif;
   border-top: 1px solid #d9d9d9;
 }
 
-.us h3,
-.world h3,
-.bussiness h3,
-.tech h3,
-.sports h3,
-.culture h3,
-.subscribe h3 {
+.us h3, .world h3, .bussiness h3, .tech h3, .sports h3, .culture h3, .subscribe h3 {
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
@@ -446,10 +432,6 @@ footer .footerMenu a {
 
 .ad figure {
   overflow: hidden;
-}
-
-.secondAd {
-  min-width: 380px;
 }
 
 .subBtn {
