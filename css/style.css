@@ -54,12 +54,7 @@ header a {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
 }
 
-.callToAction a {
-  padding: 10px 10px 10px 12px;
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  text-decoration: none;
-}
-
+.callToAction a,
 .ad a {
   padding: 10px 10px 10px 12px;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
@@ -118,6 +113,22 @@ nav {
   border-bottom: 2px solid #f4f5f6;
 }
 
+nav form {
+  right: 4vw;
+  top: 10%;
+}
+
+nav form input {
+  height: 54px;
+  width: 79px;
+  border: none;
+}
+
+nav form input:focus {
+  width: 92vw;
+  max-width: 1210px;
+}
+
 nav::before {
   position: absolute;
   width: 66px;
@@ -128,12 +139,6 @@ nav::before {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
-}
-
-@media only screen and (max-width: 993px) {
-  nav::before {
-    display: none;
-  }
 }
 
 nav ul {
@@ -153,6 +158,12 @@ nav li {
 
 nav li:first-child {
   border: none;
+}
+
+@media only screen and (max-width: 993px) {
+  nav::before {
+    display: none;
+  }
 }
 
 main {
@@ -278,13 +289,7 @@ footer .footerMenu a {
   text-decoration: none;
 }
 
-.moreArticles article .backImages {
-  width: 100%;
-  padding-bottom: 100%;
-  background-size: cover;
-  background-position: 50%;
-}
-
+.moreArticles article .backImages,
 .afterMagazine article .backImages {
   width: 100%;
   padding-bottom: 100%;
