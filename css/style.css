@@ -75,6 +75,14 @@ header a:first-child {
   padding: 0 12px;
 }
 
+header .sign {
+  min-width: 82px;
+}
+
+header .subs {
+  min-width: 129px;
+}
+
 header svg {
   height: 60px;
 }
@@ -89,7 +97,7 @@ header svg {
   }
 
   header svg {
-    height: 20px;
+    height: 14px;
   }
 }
 
