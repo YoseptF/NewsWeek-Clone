@@ -131,6 +131,10 @@ nav form input {
   height: 54px;
   width: 79px;
   border: none;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
 nav form input:focus {
